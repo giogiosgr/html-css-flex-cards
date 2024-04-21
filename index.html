@@ -16,32 +16,66 @@
 <body>
     <!-- creazione contenuto -->
     <main>
-        <!-- primo flexcontainer-->
-        <div class="flexcontainer window">
+        <!-- flexcontainer padre-->
+        <div class="flexcontainer maincontainer">
             <div class="header">Meet Our Team</div>
             <div class="text">Questo è del testo abbastanza lungo che ho voluto usare in questo esercizio al
                 posto del Lorem Ipsum. Il contenitore con questo testo è un flex-item dal momento che il suo genitore è
                 un contenitore con proprietà display con valore flex e direction flex-column. Non era affatto necessario
-                secondo ma ma ho voluto provare a svolgere l'esercizio utilizzando quasi esclusivamente dei flex
+                secondo me, però ho voluto provare a svolgere l'esercizio utilizzando quasi esclusivamente dei flex
                 container.</div>
             <!-- flexcontainer contenente le card, a loro volta dei flexcontainer -->
-            <div class="flexcontainer list">
+            <div class="flexcontainer presentation">
                 <div class="flexcontainer card">
                     <img src="img/male1.png">
-                    <div class="description">
-                        <h2>MARCO BIANCHI</h2>
-                        <p>Designer</p>
-                        <a href="fakemail.fake" target="_blank">marcobianchi@team.com</a>
-                    </div>
+                    <ul class="description">
+                        <li class="info">MARCO BIANCHI</li>
+                        <li class="info">Designer</li>
+                        <li class="info">marcobianchi@team.com</li>
+                    </ul>
                 </div>
-                <div class="flexcontainer card">2</div>
-                <div class="flexcontainer card">3</div>
-                <div class="flexcontainer card">4</div>
-                <div class="flexcontainer card">5</div>
-                <div class="flexcontainer card">6</div>
+                <div class="flexcontainer card">
+                    <img src="img/female1.png">
+                    <ul class="description">
+                        <li class="info">LAURA ROSSI</li>
+                        <li class="info">Front-end Developer</li>
+                        <li class="info">laurarossi@team.com</li>
+                    </ul>
+                </div>
+                <div class="flexcontainer card">
+                    <img src="img/male2.png">
+                    <ul class="description">
+                        <li class="info">GIORGIO VERDI</li>
+                        <li class="info">Back-end Developer</li>
+                        <li class="info">giorgioverdi@team.com</li>
+                    </ul>
+                </div>
+                <div class="flexcontainer card">
+                    <img src="img/female2.png">
+                    <ul class="description">
+                        <li class="info">MARTA IPSUM</li>
+                        <li class="info">SEO Specialist</li>
+                        <li class="info">martaipsum@team.com</li>
+                    </ul>
+                </div>
+                <div class="flexcontainer card">
+                    <img src="img/male3.png">
+                    <ul class="description">
+                        <li class="info">ROBERTO LOREM</li>
+                        <li class="info">Project Manager</li>
+                        <li class="info">robertolorem@team.com</li>
+                    </ul>
+                </div>
+                <div class="flexcontainer card">
+                    <img src="img/female3.png">
+                    <ul class="description">
+                        <li class="info">DANIELA AMET</li>
+                        <li class="info">Analyst</li>
+                        <li class="info">danielaamet@team.com</li>
+                    </ul>
+                </div>
             </div>
         </div>
-        <div></div>
     </main>
 </body>
 

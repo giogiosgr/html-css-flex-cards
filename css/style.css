@@ -4,19 +4,26 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: fredoka;
+}
+
+body {
+    font-family: Fredoka, Arial;
 }
 
 .flexcontainer {
     display: flex;
 }
 
-.window {
-    margin: 50px 15%;
+/* selettore per il maincontainer, di tipo flex */
+
+.maincontainer {
+    margin: 50px 17%;
     flex-direction: column;
     align-items: center;
     gap: 60px;
 }
+
+/* selettori per i tre sottoelementi del maincontainer */
 
 .header {
     font-size: 30px;
@@ -31,18 +38,38 @@
     line-height: 1.5;
 }
 
-.list {
+.presentation {
     flex-wrap: wrap;
     justify-content: space-between;
+    gap: 50px 30px;
 }
 
+/* selettore per i flex-item figli diretti del container delle card, 
+   quindi le card stesse, a loro volta flex-container */
+
 .card {
-    width: 350px;
+    width: 360px;
     height: 100px;
     background-color: #0f0e17;
 }
 
+/* selettori per i discendenti delle card con le informazioni */
+
 .description {
     margin: 10px 10px;
     color: white;
+    list-style: none;
+}
+
+.info {
+    margin: 5px;
+}
+
+.info:first-child {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.info:last-child {
+    color: #72c2e4;
 }
