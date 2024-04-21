@@ -7,26 +7,26 @@
     font-family: fredoka;
 }
 
-/* classi container */
-
-.container {
+.flexcontainer {
     display: flex;
 }
 
-.container.header {
-    font-size: 1.875rem;
+.window {
+    margin: 50px 15%;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+}
+
+.header {
+    font-size: 30px;
     color: #e53170;
-    font-weight: bolder;
-    margin: 45px auto;
+    font-weight: bold;
     justify-content: center;
+    margin-bottom: 10px;
 }
 
-.container.window {
-    margin: 20px 15%;
-
-}
-
-.container.text {
+.text {
     text-align: center;
     line-height: 1.5;
 }
