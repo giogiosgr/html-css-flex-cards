@@ -1,5 +1,32 @@
+/* RESET E INIZIALIZZAZIONE */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: fredoka;
+}
+
+/* classi container */
+
+.container {
+    display: flex;
+}
+
+.container.header {
+    font-size: 1.875rem;
+    color: #e53170;
+    font-weight: bolder;
+    margin: 45px auto;
+    justify-content: center;
+}
+
+.container.window {
+    margin: 20px 15%;
+
+}
+
+.container.text {
+    text-align: center;
+    line-height: 1.5;
 }
