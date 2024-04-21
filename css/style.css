@@ -32,6 +32,17 @@
 }
 
 .list {
-    flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    width: 350px;
+    height: 100px;
+    background-color: #0f0e17;
+}
+
+.description {
+    margin: 10px 10px;
+    color: white;
 }
