@@ -17,7 +17,7 @@ body {
 /* selettore per il maincontainer, di tipo flex */
 
 .maincontainer {
-    margin: 3.125rem 17%;
+    margin: 50px 20%;
     flex-direction: column;
     align-items: center;
     gap: 60px;
@@ -40,7 +40,7 @@ body {
 
 .presentation {
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     gap: 50px 30px;
 }
 
