@@ -38,12 +38,9 @@ body {
     line-height: 1.5;
 }
 
-/* selettore per il flex container delle card */
-
 .presentation {
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
     gap: 50px 30px;
 }
 
